@@ -21,8 +21,8 @@ base = None
 if sys.platform == "win32":
     base = "Win32GUI"
 
-setup(  name = "guifoo",
+setup(  name = "Image Resizer",
         version = "0.1",
-        description = "My GUI application!",
+        description = "A small tool for resizing and renaming jpg files.",
         options = {"build_exe": build_exe_options},
         executables = [Executable("Image Resizer.py", base=base)])
